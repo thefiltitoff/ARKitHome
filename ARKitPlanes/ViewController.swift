@@ -16,6 +16,35 @@ class ViewController: UIViewController {
     @IBOutlet var sceneView: ARSCNView!
     var planes = [Plane]()
     
+    func setupGestures() {
+        let tapGestureRecognizer = UITapGestureRecognizer(target: self, action: #selector(placeBox))
+        tapGestureRecognizer.numberOfTapsRequired = 1
+        self.sceneView.addGestureRecognizer(tapGestureRecognizer)
+    }
+    
+    @objc func placeBox(tapGesture: UITapGestureRecognizer) {
+        let sceneView = tapGesture.view as! ARSCNView
+        let location = tapGesture.location(in: sceneView)
+        
+        let hitTestResult = sceneView.hitTest(location, types: .existingPlaneUsingExtent)
+        
+        guard let hitResult = hitTestResult.first else { return }
+        
+        createBox(hitResult: hitResult)
+        
+        
+    }
+    
+    func createBox(hitResult: ARHitTestResult) {
+        let position = SCNVector3(hitResult.worldTransform.columns.3.x,
+                                  hitResult.worldTransform.columns.3.y + 0.05,
+                                  hitResult.worldTransform.columns.3.z
+        )
+        
+        let box = Box(atPosition: position)
+        sceneView.scene.rootNode.addChildNode(box)
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -33,6 +62,8 @@ class ViewController: UIViewController {
         
         // Set the scene to the view
         sceneView.scene = scene
+        
+        setupGestures()
     }
     
     override func viewWillAppear(_ animated: Bool) {
