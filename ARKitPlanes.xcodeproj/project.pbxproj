@@ -15,9 +15,10 @@
 		2BA24049285FDAC600B02251 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2BA24047285FDAC600B02251 /* LaunchScreen.storyboard */; };
 		2BA24050285FDB5600B02251 /* Plane.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BA2404F285FDB5600B02251 /* Plane.swift */; };
 		2BA24052285FDCD500B02251 /* pinkWeb.png in Resources */ = {isa = PBXBuildFile; fileRef = 2BA24051285FDCD500B02251 /* pinkWeb.png */; };
-		2BA2405428606C4600B02251 /* Box.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BA2405328606C4600B02251 /* Box.swift */; };
 		2BA240562860719100B02251 /* BitMaskCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BA240552860719100B02251 /* BitMaskCategory.swift */; };
 		2BA240582860795500B02251 /* VirtualObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BA240572860795500B02251 /* VirtualObject.swift */; };
+		2BA2405B2860814200B02251 /* smoke.png in Resources */ = {isa = PBXBuildFile; fileRef = 2BA240592860814200B02251 /* smoke.png */; };
+		2BA2405C2860814200B02251 /* Smoke.scnp in Resources */ = {isa = PBXBuildFile; fileRef = 2BA2405A2860814200B02251 /* Smoke.scnp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,9 +31,10 @@
 		2BA24048285FDAC600B02251 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2BA2404F285FDB5600B02251 /* Plane.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Plane.swift; sourceTree = "<group>"; };
 		2BA24051285FDCD500B02251 /* pinkWeb.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pinkWeb.png; sourceTree = "<group>"; };
-		2BA2405328606C4600B02251 /* Box.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Box.swift; sourceTree = "<group>"; };
 		2BA240552860719100B02251 /* BitMaskCategory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BitMaskCategory.swift; sourceTree = "<group>"; };
 		2BA240572860795500B02251 /* VirtualObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VirtualObject.swift; sourceTree = "<group>"; };
+		2BA240592860814200B02251 /* smoke.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = smoke.png; sourceTree = "<group>"; };
+		2BA2405A2860814200B02251 /* Smoke.scnp */ = {isa = PBXFileReference; lastKnownFileType = file.scp; path = Smoke.scnp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,13 +71,14 @@
 				2BA2403E285FDAC400B02251 /* art.scnassets */,
 				2BA24040285FDAC400B02251 /* ViewController.swift */,
 				2BA240552860719100B02251 /* BitMaskCategory.swift */,
-				2BA2405328606C4600B02251 /* Box.swift */,
+				2BA2404F285FDB5600B02251 /* Plane.swift */,
+				2BA240572860795500B02251 /* VirtualObject.swift */,
 				2BA24051285FDCD500B02251 /* pinkWeb.png */,
+				2BA240592860814200B02251 /* smoke.png */,
+				2BA2405A2860814200B02251 /* Smoke.scnp */,
 				2BA24042285FDAC400B02251 /* Main.storyboard */,
 				2BA24045285FDAC600B02251 /* Assets.xcassets */,
 				2BA24047285FDAC600B02251 /* LaunchScreen.storyboard */,
-				2BA2404F285FDB5600B02251 /* Plane.swift */,
-				2BA240572860795500B02251 /* VirtualObject.swift */,
 			);
 			path = ARKitPlanes;
 			sourceTree = "<group>";
@@ -139,6 +142,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				2BA2403F285FDAC400B02251 /* art.scnassets in Resources */,
+				2BA2405C2860814200B02251 /* Smoke.scnp in Resources */,
+				2BA2405B2860814200B02251 /* smoke.png in Resources */,
 				2BA24049285FDAC600B02251 /* LaunchScreen.storyboard in Resources */,
 				2BA24046285FDAC600B02251 /* Assets.xcassets in Resources */,
 				2BA24052285FDCD500B02251 /* pinkWeb.png in Resources */,
@@ -154,7 +159,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				2BA24041285FDAC400B02251 /* ViewController.swift in Sources */,
-				2BA2405428606C4600B02251 /* Box.swift in Sources */,
 				2BA240582860795500B02251 /* VirtualObject.swift in Sources */,
 				2BA240562860719100B02251 /* BitMaskCategory.swift in Sources */,
 				2BA24050285FDB5600B02251 /* Plane.swift in Sources */,

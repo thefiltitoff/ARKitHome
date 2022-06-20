@@ -11,6 +11,7 @@ import SceneKit
 import ARKit
 
 class Plane: SCNNode {
+    
     var anchor: ARPlaneAnchor!
     var planeGeometry: SCNPlane!
     
@@ -18,14 +19,11 @@ class Plane: SCNNode {
         self.anchor = anchor
         super.init()
         configure()
-        
     }
     
     private func configure() {
-        self.planeGeometry = SCNPlane(
-            width: CGFloat(anchor.extent.x),
-            height: CGFloat(anchor.extent.z)
-        )
+        
+        self.planeGeometry = SCNPlane(width: CGFloat(anchor.extent.x), height: CGFloat(anchor.extent.z))
         
         let material = SCNMaterial()
         material.diffuse.contents = UIImage(named: "pinkWeb.png")
@@ -40,7 +38,7 @@ class Plane: SCNNode {
         self.physicsBody?.collisionBitMask = BitMaskCategory.box
         self.physicsBody?.contactTestBitMask = BitMaskCategory.box
         
-        self.position = SCNVector3(anchor.center.x, 0 , anchor.center.z)
+        self.position = SCNVector3(anchor.center.x, 0, anchor.center.z)
         
         self.transform = SCNMatrix4MakeRotation(Float(-Double.pi / 2), 1.0, 0.0, 0.0)
     }
@@ -50,10 +48,9 @@ class Plane: SCNNode {
         self.planeGeometry.width = CGFloat(anchor.extent.x)
         self.planeGeometry.height = CGFloat(anchor.extent.z)
         self.position = SCNVector3(anchor.center.x, 0, anchor.center.z)
-        
     }
     
-    required init?(coder: NSCoder) {
+    required init?(coder aDecoder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
     }
 }
