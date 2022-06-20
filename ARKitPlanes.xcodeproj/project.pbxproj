@@ -16,6 +16,7 @@
 		2BA24050285FDB5600B02251 /* Plane.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BA2404F285FDB5600B02251 /* Plane.swift */; };
 		2BA24052285FDCD500B02251 /* pinkWeb.png in Resources */ = {isa = PBXBuildFile; fileRef = 2BA24051285FDCD500B02251 /* pinkWeb.png */; };
 		2BA2405428606C4600B02251 /* Box.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BA2405328606C4600B02251 /* Box.swift */; };
+		2BA240562860719100B02251 /* BitMaskCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BA240552860719100B02251 /* BitMaskCategory.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,7 @@
 		2BA2404F285FDB5600B02251 /* Plane.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Plane.swift; sourceTree = "<group>"; };
 		2BA24051285FDCD500B02251 /* pinkWeb.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pinkWeb.png; sourceTree = "<group>"; };
 		2BA2405328606C4600B02251 /* Box.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Box.swift; sourceTree = "<group>"; };
+		2BA240552860719100B02251 /* BitMaskCategory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BitMaskCategory.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +66,7 @@
 				2BA2403C285FDAC400B02251 /* AppDelegate.swift */,
 				2BA2403E285FDAC400B02251 /* art.scnassets */,
 				2BA24040285FDAC400B02251 /* ViewController.swift */,
+				2BA240552860719100B02251 /* BitMaskCategory.swift */,
 				2BA2405328606C4600B02251 /* Box.swift */,
 				2BA24051285FDCD500B02251 /* pinkWeb.png */,
 				2BA24042285FDAC400B02251 /* Main.storyboard */,
@@ -149,6 +152,7 @@
 			files = (
 				2BA24041285FDAC400B02251 /* ViewController.swift in Sources */,
 				2BA2405428606C4600B02251 /* Box.swift in Sources */,
+				2BA240562860719100B02251 /* BitMaskCategory.swift in Sources */,
 				2BA24050285FDB5600B02251 /* Plane.swift in Sources */,
 				2BA2403D285FDAC400B02251 /* AppDelegate.swift in Sources */,
 			);
