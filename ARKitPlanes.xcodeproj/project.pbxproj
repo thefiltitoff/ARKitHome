@@ -18,7 +18,7 @@
 		2BA240562860719100B02251 /* BitMaskCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BA240552860719100B02251 /* BitMaskCategory.swift */; };
 		2BA240582860795500B02251 /* VirtualObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BA240572860795500B02251 /* VirtualObject.swift */; };
 		2BA2405B2860814200B02251 /* smoke.png in Resources */ = {isa = PBXBuildFile; fileRef = 2BA240592860814200B02251 /* smoke.png */; };
-		2BA2405C2860814200B02251 /* Smoke.scnp in Resources */ = {isa = PBXBuildFile; fileRef = 2BA2405A2860814200B02251 /* Smoke.scnp */; };
+		2BA2405E286085F700B02251 /* Smoke.scnp in Resources */ = {isa = PBXBuildFile; fileRef = 2BA2405D286085F700B02251 /* Smoke.scnp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,7 +34,7 @@
 		2BA240552860719100B02251 /* BitMaskCategory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BitMaskCategory.swift; sourceTree = "<group>"; };
 		2BA240572860795500B02251 /* VirtualObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VirtualObject.swift; sourceTree = "<group>"; };
 		2BA240592860814200B02251 /* smoke.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = smoke.png; sourceTree = "<group>"; };
-		2BA2405A2860814200B02251 /* Smoke.scnp */ = {isa = PBXFileReference; lastKnownFileType = file.scp; path = Smoke.scnp; sourceTree = "<group>"; };
+		2BA2405D286085F700B02251 /* Smoke.scnp */ = {isa = PBXFileReference; lastKnownFileType = file.scp; path = Smoke.scnp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,7 +75,7 @@
 				2BA240572860795500B02251 /* VirtualObject.swift */,
 				2BA24051285FDCD500B02251 /* pinkWeb.png */,
 				2BA240592860814200B02251 /* smoke.png */,
-				2BA2405A2860814200B02251 /* Smoke.scnp */,
+				2BA2405D286085F700B02251 /* Smoke.scnp */,
 				2BA24042285FDAC400B02251 /* Main.storyboard */,
 				2BA24045285FDAC600B02251 /* Assets.xcassets */,
 				2BA24047285FDAC600B02251 /* LaunchScreen.storyboard */,
@@ -142,7 +142,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2BA2403F285FDAC400B02251 /* art.scnassets in Resources */,
-				2BA2405C2860814200B02251 /* Smoke.scnp in Resources */,
+				2BA2405E286085F700B02251 /* Smoke.scnp in Resources */,
 				2BA2405B2860814200B02251 /* smoke.png in Resources */,
 				2BA24049285FDAC600B02251 /* LaunchScreen.storyboard in Resources */,
 				2BA24046285FDAC600B02251 /* Assets.xcassets in Resources */,
