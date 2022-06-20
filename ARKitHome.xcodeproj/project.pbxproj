@@ -22,7 +22,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		2BA24039285FDAC400B02251 /* ARKitPlanes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ARKitPlanes.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2BA24039285FDAC400B02251 /* ARKitHome.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ARKitHome.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2BA2403C285FDAC400B02251 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2BA2403E285FDAC400B02251 /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
 		2BA24040285FDAC400B02251 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -51,7 +51,7 @@
 		2BA24030285FDAC400B02251 = {
 			isa = PBXGroup;
 			children = (
-				2BA2403B285FDAC400B02251 /* ARKitPlanes */,
+				2BA2403B285FDAC400B02251 /* ARKitHome */,
 				2BA2403A285FDAC400B02251 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -59,12 +59,12 @@
 		2BA2403A285FDAC400B02251 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				2BA24039285FDAC400B02251 /* ARKitPlanes.app */,
+				2BA24039285FDAC400B02251 /* ARKitHome.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		2BA2403B285FDAC400B02251 /* ARKitPlanes */ = {
+		2BA2403B285FDAC400B02251 /* ARKitHome */ = {
 			isa = PBXGroup;
 			children = (
 				2BA2403C285FDAC400B02251 /* AppDelegate.swift */,
@@ -80,15 +80,15 @@
 				2BA24045285FDAC600B02251 /* Assets.xcassets */,
 				2BA24047285FDAC600B02251 /* LaunchScreen.storyboard */,
 			);
-			path = ARKitPlanes;
+			path = ARKitHome;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		2BA24038285FDAC400B02251 /* ARKitPlanes */ = {
+		2BA24038285FDAC400B02251 /* ARKitHome */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2BA2404C285FDAC600B02251 /* Build configuration list for PBXNativeTarget "ARKitPlanes" */;
+			buildConfigurationList = 2BA2404C285FDAC600B02251 /* Build configuration list for PBXNativeTarget "ARKitHome" */;
 			buildPhases = (
 				2BA24035285FDAC400B02251 /* Sources */,
 				2BA24036285FDAC400B02251 /* Frameworks */,
@@ -98,9 +98,9 @@
 			);
 			dependencies = (
 			);
-			name = ARKitPlanes;
+			name = ARKitHome;
 			productName = ARKitPlanes;
-			productReference = 2BA24039285FDAC400B02251 /* ARKitPlanes.app */;
+			productReference = 2BA24039285FDAC400B02251 /* ARKitHome.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -118,7 +118,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 2BA24034285FDAC400B02251 /* Build configuration list for PBXProject "ARKitPlanes" */;
+			buildConfigurationList = 2BA24034285FDAC400B02251 /* Build configuration list for PBXProject "ARKitHome" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -131,7 +131,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				2BA24038285FDAC400B02251 /* ARKitPlanes */,
+				2BA24038285FDAC400B02251 /* ARKitHome */,
 			);
 		};
 /* End PBXProject section */
@@ -324,7 +324,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.thefiltitoff.ARKitPlanes;
+				PRODUCT_BUNDLE_IDENTIFIER = com.thefiltitoff.ARKitHome;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -354,7 +354,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.thefiltitoff.ARKitPlanes;
+				PRODUCT_BUNDLE_IDENTIFIER = com.thefiltitoff.ARKitHome;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -365,7 +365,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		2BA24034285FDAC400B02251 /* Build configuration list for PBXProject "ARKitPlanes" */ = {
+		2BA24034285FDAC400B02251 /* Build configuration list for PBXProject "ARKitHome" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2BA2404A285FDAC600B02251 /* Debug */,
@@ -374,7 +374,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2BA2404C285FDAC600B02251 /* Build configuration list for PBXNativeTarget "ARKitPlanes" */ = {
+		2BA2404C285FDAC600B02251 /* Build configuration list for PBXNativeTarget "ARKitHome" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2BA2404D285FDAC600B02251 /* Debug */,
